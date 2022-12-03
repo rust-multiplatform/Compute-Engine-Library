@@ -10,7 +10,7 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  base_engine_library:
+  compute_engine:
     runs-on: ubuntu-latest
 
     steps:

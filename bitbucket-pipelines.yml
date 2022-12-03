@@ -6,17 +6,17 @@ pipelines:
         - step:
             name: check
             script:
-              - rustc --version && cargo --version  # Print version info for debugging
-              - cargo check --verbose --package base_engine_library
+              - rustc --version && cargo --version # Print version info for debugging
+              - cargo check --verbose --package compute_engine
 
         - step:
             name: build
             script:
-              - rustc --version && cargo --version  # Print version info for debugging
-              - cargo build --verbose --package base_engine_library
+              - rustc --version && cargo --version # Print version info for debugging
+              - cargo build --verbose --package compute_engine
 
         - step:
             name: test
             script:
-              - rustc --version && cargo --version  # Print version info for debugging
-              - cargo test --verbose --no-default-features --no-fail-fast --package base_engine_library
+              - rustc --version && cargo --version # Print version info for debugging
+              - cargo test --verbose --no-default-features --no-fail-fast --package compute_engine

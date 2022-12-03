@@ -46,7 +46,7 @@ cargo build --release
 
 ### CI Platform: GitHub Actions
 
-[![Base Engine Library](https://github.com/rust-multiplatform/Base-Engine-Library/actions/workflows/library.yml/badge.svg)](https://github.com/rust-multiplatform/Base-Engine-Library/actions/workflows/library.yml)
+[![Base Engine Library](https://github.com/rust-multiplatform/compute-engine-library/actions/workflows/library.yml/badge.svg)](https://github.com/rust-multiplatform/compute-engine-library/actions/workflows/library.yml)
 
 ### CI Platform: Azure DevOps
 
@@ -54,19 +54,19 @@ cargo build --release
 
 ### CI Platform: CircleCI
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/rust-multiplatform/Base-Engine-Library/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/rust-multiplatform/Base-Engine-Library/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/rust-multiplatform/compute-engine-library/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/rust-multiplatform/compute-engine-library/tree/main)
 
 ### CI Platform: Travis
 
-[![Build Status](https://app.travis-ci.com/rust-multiplatform/Base-Engine-Library.svg?branch=main)](https://app.travis-ci.com/rust-multiplatform/Base-Engine-Library)
+[![Build Status](https://app.travis-ci.com/rust-multiplatform/compute-engine-library.svg?branch=main)](https://app.travis-ci.com/rust-multiplatform/compute-engine-library)
 
 ### CI Platform: GitLab CI
 
-[![pipeline status](https://gitlab.com/rust-multiplatform/base-engine-library/badges/main/pipeline.svg)](https://gitlab.com/rust-multiplatform/base-engine-library/-/commits/main)
+[![pipeline status](https://gitlab.com/rust-multiplatform/compute-engine-library/badges/main/pipeline.svg)](https://gitlab.com/rust-multiplatform/compute-engine-library/-/commits/main)
 
 ### CI Platform: BitBucket Pipeline
 
-[BitBucket Mirror, no badges 🙃](https://bitbucket.org/rust-multiplatform/base-engine-library/pipelines/)
+[BitBucket Mirror, no badges 🙃](https://bitbucket.org/rust-multiplatform/compute-engine-library/pipelines/)
 
 ### CI Platform: TeamCity
 
@@ -77,27 +77,27 @@ cargo build --release
 
 ### CI Platform: AppVeyor
 
-[![Build status](https://ci.appveyor.com/api/projects/status/oa83imlxgqueuyqk?svg=true)](https://ci.appveyor.com/project/Sakul6499/base-engine-library)
+[![Build status](https://ci.appveyor.com/api/projects/status/oa83imlxgqueuyqk?svg=true)](https://ci.appveyor.com/project/Sakul6499/compute-engine-library)
 
 ### CI Platform: Jenkins
 
-[![Build Status](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/Base-Engine-Library/job/main/badge/icon)](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/Base-Engine-Library/job/main/)
+[![Build Status](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/compute-engine-library/job/main/badge/icon)](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/compute-engine-library/job/main/)
 
 ## Coverage
 
-[![codecov](https://codecov.io/github/rust-multiplatform/Base-Engine-Library/branch/main/graph/badge.svg?token=9bK3wW9oNA)](https://codecov.io/github/rust-multiplatform/Base-Engine-Library)
+[![codecov](https://codecov.io/github/rust-multiplatform/compute-engine-library/branch/main/graph/badge.svg?token=9bK3wW9oNA)](https://codecov.io/github/rust-multiplatform/compute-engine-library)
 
 ### Sunburst
 
-![Sunburst](https://codecov.io/gh/rust-multiplatform/Base-Engine-Library/branch/main/graphs/sunburst.svg?token=9bK3wW9oNA)
+![Sunburst](https://codecov.io/gh/rust-multiplatform/compute-engine-library/branch/main/graphs/sunburst.svg?token=9bK3wW9oNA)
 
 ### Grid
 
-![Grid](https://codecov.io/gh/rust-multiplatform/Base-Engine-Library/branch/main/graphs/tree.svg?token=9bK3wW9oNA)
+![Grid](https://codecov.io/gh/rust-multiplatform/compute-engine-library/branch/main/graphs/tree.svg?token=9bK3wW9oNA)
 
 ### Icicle
 
-![Icicle](https://codecov.io/gh/rust-multiplatform/Base-Engine-Library/branch/main/graphs/icicle.svg?token=9bK3wW9oNA)
+![Icicle](https://codecov.io/gh/rust-multiplatform/compute-engine-library/branch/main/graphs/icicle.svg?token=9bK3wW9oNA)
 
 ## Contributing & Getting Help
 
