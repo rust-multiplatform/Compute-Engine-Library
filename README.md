@@ -58,7 +58,7 @@ cargo build --release
 
 ### CI Platform: Travis
 
-[![Build Status](https://app.travis-ci.com/rust-multiplatform/compute-engine-library.svg?branch=main)](https://app.travis-ci.com/rust-multiplatform/compute-engine-library)
+[![Build Status](https://app.travis-ci.com/rust-multiplatform/Compute-Engine-Library.svg?branch=main)](https://app.travis-ci.com/rust-multiplatform/Compute-Engine-Library)
 
 ### CI Platform: GitLab CI
 
