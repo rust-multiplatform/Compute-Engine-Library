@@ -54,7 +54,7 @@ cargo build --release
 
 ### CI Platform: CircleCI
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/rust-multiplatform/compute-engine-library/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/rust-multiplatform/compute-engine-library/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/rust-multiplatform/Compute-Engine-Library/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/rust-multiplatform/Compute-Engine-Library/tree/main)
 
 ### CI Platform: Travis
 
