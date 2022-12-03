@@ -81,7 +81,7 @@ cargo build --release
 
 ### CI Platform: Jenkins
 
-[![Build Status](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/compute-engine-library/job/main/badge/icon)](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/compute-engine-library/job/main/)
+[![Build Status](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/Compute-Engine-Library/job/main/badge/icon)](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/Compute-Engine-Library/job/main/)
 
 ## Coverage
 
