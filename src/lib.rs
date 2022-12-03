@@ -11,6 +11,7 @@ use vulkano::{
     VulkanLibrary,
 };
 
+#[derive(Debug)]
 pub struct ComputeEngine {
     instance: Arc<Instance>,
     logical_device: Arc<LogicalDevice>,
@@ -117,13 +118,13 @@ impl ComputeEngine {
 
 impl BaseEngine for ComputeEngine {
     fn compute(&self, operation: &dyn (Fn(&Self) -> PrimaryAutoCommandBuffer)) {
-        let command_buffer = operation(&self);
+        let command_buffer = operation(self);
 
         #[cfg(debug_assertions)]
         let start_fence = Instant::now();
 
         command_buffer
-            .execute(self.get_logical_device().get_first_queue().clone())
+            .execute(self.get_logical_device().get_first_queue())
             .unwrap()
             .then_signal_fence_and_flush()
             .unwrap()
@@ -146,5 +147,11 @@ impl BaseEngine for ComputeEngine {
 
     fn get_logical_device(&self) -> Arc<LogicalDevice> {
         self.logical_device.clone()
+    }
+}
+
+impl Default for ComputeEngine {
+    fn default() -> Self {
+        Self::new()
     }
 }
