@@ -1,18 +1,14 @@
 [package]
-name = "base_engine"
+name = "compute_engine"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/rust-multiplatform/Compute-Engine-Library.git"
+repository = "https://github.com/rust-multiplatform/Compute-Engine-Library"
 
 [lib]
 crate-type = ["cdylib", "staticlib", "rlib"]
 
 [dependencies]
+base_engine = { git = "https://github.com/rust-multiplatform/Base-Engine-Library", branch = "main" }
 vulkano = "0.32.1"
 log = "0.4"
-env_logger = "0.10"
-
-# To reduce performance artifacts
-[profile.dev]
-opt-level = 1 
