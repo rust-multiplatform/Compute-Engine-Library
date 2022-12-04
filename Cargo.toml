@@ -10,5 +10,5 @@ crate-type = ["cdylib", "staticlib", "rlib"]
 
 [dependencies]
 base_engine = { git = "https://github.com/rust-multiplatform/Base-Engine-Library", branch = "main" }
-vulkano = "0.32.1"
+vulkano = "0.31.0"
 log = "0.4"
