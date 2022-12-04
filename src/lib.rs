@@ -4,7 +4,7 @@ use std::{sync::Arc, time::Instant};
 
 use base_engine::{log_init, BaseEngine, LogicalDevice};
 use vulkano::{
-    command_buffer::{PrimaryAutoCommandBuffer, PrimaryCommandBufferAbstract},
+    command_buffer::{PrimaryAutoCommandBuffer, PrimaryCommandBuffer},
     device::{physical::PhysicalDevice, Device, DeviceCreateInfo, Queue, QueueCreateInfo},
     instance::{Instance, InstanceCreateInfo},
     sync::GpuFuture,
