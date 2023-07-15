@@ -6,8 +6,10 @@ pub use base_engine_library::*;
 use std::{sync::Arc, time::Instant};
 
 use vulkano::{
-    command_buffer::{PrimaryAutoCommandBuffer, PrimaryCommandBuffer},
-    device::{physical::PhysicalDevice, Device, DeviceCreateInfo, Queue, QueueCreateInfo},
+    command_buffer::{PrimaryAutoCommandBuffer, PrimaryCommandBufferAbstract},
+    device::{
+        physical::PhysicalDevice, Device, DeviceCreateInfo, Queue, QueueCreateInfo, QueueFlags,
+    },
     instance::{Instance, InstanceCreateInfo},
     sync::GpuFuture,
     VulkanLibrary,
@@ -62,7 +64,7 @@ impl ComputeEngine {
                 physical_device
                     .queue_family_properties()
                     .iter()
-                    .any(|queue_family| queue_family.queue_flags.compute)
+                    .any(|queue_family| queue_family.queue_flags.contains(QueueFlags::COMPUTE))
             })
             .min_by_key(|physical_device: &Arc<PhysicalDevice>| {
                 match physical_device.properties().device_type {
@@ -85,7 +87,7 @@ impl ComputeEngine {
             .queue_family_properties()
             .iter()
             .enumerate()
-            .position(|(_, q)| q.queue_flags.compute) // Find a compute capable queue family
+            .position(|(_, q)| q.queue_flags.contains(QueueFlags::COMPUTE)) // Find a compute capable queue family
             .expect("no suitable queue family found") as u32;
 
         log::debug!("Queue family index: {}", queue_family_index);
