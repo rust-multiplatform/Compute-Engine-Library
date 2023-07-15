@@ -9,6 +9,6 @@ repository = "https://github.com/rust-multiplatform/Compute-Engine-Library"
 crate-type = ["cdylib", "staticlib", "rlib"]
 
 [dependencies]
-base_engine = { path = "./Base-Engine-Library" }
-vulkano = "0.31.0"
+base_engine_library = { path = "./Base-Engine-Library" }
+vulkano = "0.33"
 log = "0.4"
